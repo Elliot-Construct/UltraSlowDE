@@ -2,6 +2,8 @@
 
 Minimal Python toolkit to evaluate a low-frequency oscillatory dark-energy template (Model A) and Scalar Fields against a \(\Lambda\)CDM baseline.
 
+This repository is a sanitized codebase-focused snapshot intended for software and method sharing. Manuscript-specific source files and paper-build assets are excluded, and only lightweight derived JSON outputs are retained.
+
 ## Features
 
 - \(\Lambda\)CDM background expansion: \(E(z), H(z)\)

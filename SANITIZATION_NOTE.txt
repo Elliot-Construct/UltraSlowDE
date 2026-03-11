@@ -5,10 +5,12 @@ Current scope: codebase-focused artifact with manuscript-related documents remov
 Included:
 - src/, tests/, scripts/, docs/, docker/, data/pantheon_plus/
 - pyproject.toml, README.md, concept.md, docker-compose.class.yml
-- output/*.json only (results retained; manuscript documents removed)
+- selected lightweight output/*.json files only (manuscript documents removed; oversized derived results excluded)
 
 Excluded:
 - manuscript sources, bibliography, manuscript figures/tables
+- manuscript-only helper scripts
+- oversized derived result artifacts not needed for codebase sharing
 - build artifacts, local environments, logs, latex aux/cache files, review notes, waiver/cover-letter materials, transcripts
 
 Applied redactions:
