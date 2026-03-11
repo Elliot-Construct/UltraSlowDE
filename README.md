@@ -1,6 +1,6 @@
 # Ultra-Slow Dark Energy Modelling
 
-Minimal Python toolkit to evaluate a low-frequency oscillatory dark-energy template (Model A) against a \(\Lambda\)CDM baseline.
+Minimal Python toolkit to evaluate a low-frequency oscillatory dark-energy template (Model A) and Scalar Fields against a \(\Lambda\)CDM baseline.
 
 ## Features
 
