@@ -1,0 +1,11 @@
+services:
+  class-runner:
+    build:
+      context: .
+      dockerfile: docker/class/Dockerfile
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+      - ./output:/workspace/output
+    command: >
+      bash -lc "python -m ultra_slow_de.fsig8_check --steps 20000 --growth-backend class > output/fsig8_class_docker_log.txt 2>&1"

@@ -1,0 +1,19 @@
+Sanitized research artifact: Codebase
+
+Current scope: codebase-focused artifact with manuscript-related documents removed.
+
+Included:
+- src/, tests/, scripts/, docs/, docker/, data/pantheon_plus/
+- pyproject.toml, README.md, concept.md, docker-compose.class.yml
+- output/*.json only (results retained; manuscript documents removed)
+
+Excluded:
+- manuscript sources, bibliography, manuscript figures/tables
+- build artifacts, local environments, logs, latex aux/cache files, review notes, waiver/cover-letter materials, transcripts
+
+Applied redactions:
+- [AUTHOR_NAME]
+- [AUTHOR_SURNAME]
+- [AUTHOR_EMAIL]
+- [AUTHOR_AFFILIATION]
+- [REPOSITORY_URL], [REPOSITORY_SLUG], [REPOSITORY_OWNER]

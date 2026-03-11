@@ -1,0 +1,173 @@
+{
+  "schema_version": "evidence-contract-v1",
+  "nested": {
+    "lcdm": {
+      "model": "lcdm",
+      "lnZ": 799.7574206763061,
+      "lnZ_err": 0.2897292726968137,
+      "param_names": [
+        "h0",
+        "omega_m"
+      ],
+      "nlive": 300,
+      "dlogz": 0.5,
+      "n_samples": 2969,
+      "runtime_seconds": 430.86887089998345,
+      "delta_lnZ_vs_lcdm": 0.0,
+      "delta_lnZ_err": 0.4097390668643268
+    },
+    "a": {
+      "model": "a",
+      "lnZ": 797.5501654617196,
+      "lnZ_err": 0.33953829116032913,
+      "param_names": [
+        "h0",
+        "omega_m",
+        "w0",
+        "B",
+        "C",
+        "omega"
+      ],
+      "nlive": 300,
+      "dlogz": 0.5,
+      "n_samples": 4144,
+      "runtime_seconds": 695.2518398000102,
+      "delta_lnZ_vs_lcdm": -2.2072552145864393,
+      "delta_lnZ_err": 0.4463510979279664
+    },
+    "b": {
+      "model": "b",
+      "lnZ": 798.7428225996009,
+      "lnZ_err": 0.33053742069954134,
+      "param_names": [
+        "h0",
+        "omega_m",
+        "mu"
+      ],
+      "nlive": 300,
+      "dlogz": 0.5,
+      "n_samples": 3779,
+      "runtime_seconds": 673.3504154999973,
+      "delta_lnZ_vs_lcdm": -1.0145980767051697,
+      "delta_lnZ_err": 0.4395429875906681
+    }
+  },
+  "nlive": 300,
+  "dlogz": 0.5,
+  "seed": 42,
+  "likelihood_metadata": {
+    "rd_mpc": 147.09,
+    "include_planck": true,
+    "datasets": [
+      {
+        "name": "pantheon_plus",
+        "observable": "mb",
+        "n_points": 1624
+      },
+      {
+        "name": "desi_dr1_dv",
+        "observable": "dv_rd",
+        "n_points": 2
+      },
+      {
+        "name": "desi_dr1_dm",
+        "observable": "dm_rd",
+        "n_points": 5
+      },
+      {
+        "name": "desi_dr1_dh",
+        "observable": "dh_rd",
+        "n_points": 5
+      },
+      {
+        "name": "eboss_dr16_dm",
+        "observable": "dm_rd",
+        "n_points": 3
+      },
+      {
+        "name": "eboss_dr16_dh",
+        "observable": "dh_rd",
+        "n_points": 3
+      }
+    ],
+    "prior_bounds_by_model": {
+      "lcdm": [
+        [
+          60.0,
+          80.0
+        ],
+        [
+          0.1,
+          0.5
+        ]
+      ],
+      "a": [
+        [
+          60.0,
+          80.0
+        ],
+        [
+          0.1,
+          0.5
+        ],
+        [
+          -1.5,
+          -0.5
+        ],
+        [
+          -0.3,
+          0.3
+        ],
+        [
+          -0.3,
+          0.3
+        ],
+        [
+          0.1,
+          5.0
+        ]
+      ],
+      "b": [
+        [
+          60.0,
+          80.0
+        ],
+        [
+          0.1,
+          0.5
+        ],
+        [
+          0.01,
+          5.0
+        ]
+      ]
+    },
+    "param_names_by_model": {
+      "lcdm": [
+        "h0",
+        "omega_m"
+      ],
+      "a": [
+        "h0",
+        "omega_m",
+        "w0",
+        "B",
+        "C",
+        "omega"
+      ],
+      "b": [
+        "h0",
+        "omega_m",
+        "mu"
+      ]
+    },
+    "growth_likelihood_mode": null,
+    "growth_backend_requested": null,
+    "metadata_hash": "f43d16b86d8e732e97cd15b1fcba4c02ba50c5d088bf1bf0d65ba8cb680cc31b"
+  },
+  "compatibility_with_production": {
+    "status": "ok",
+    "metadata_mismatches": [],
+    "bound_violations": []
+  }
+}
