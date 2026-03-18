@@ -1,7 +1,7 @@
 # Ultra-Slow Mimics of Dark Energy
 
 ## Executive summary
-We propose two FRW-consistent mechanisms—ultra–low-frequency oscillatory dark-energy dynamics (“longitudinal” in the scalar/background sense) and inhomogeneous-curvature backreaction—that can reproduce ΛCDM-like late-time acceleration while predicting constrained, structured residuals in \(H(z)\), \(D_L(z)\), and growth. The empirical anchor is the SN Ia distance–redshift acceleration inference (Riess et al. 1998; Perlmutter et al. 1999).
+I propose two FRW-consistent mechanisms—ultra–low-frequency oscillatory dark-energy dynamics (“longitudinal” in the scalar/background sense) and inhomogeneous-curvature backreaction—that can reproduce ΛCDM-like late-time acceleration while predicting constrained, structured residuals in \(H(z)\), \(D_L(z)\), and growth. The empirical anchor is the SN Ia distance–redshift acceleration inference (Riess et al. 1998; Perlmutter et al. 1999).
 
 ## FRW framework and observables
 FRW metric:
