@@ -65,8 +65,8 @@ For irrotational dust on a domain \(\mathcal D\) with \(a_\mathcal D\propto V_\m
 so “peaks/valleys” operationalize into evolving averaged curvature \(\langle\mathcal R\rangle_\mathcal D\) and kinematical backreaction \(\mathcal Q_\mathcal D\), with acceleration possible when \(\mathcal Q_\mathcal D>4\pi G\langle\rho\rangle_\mathcal D\).
 ```
 ```mermaid
-process
-  title Task timeline
+timeline
+  title Task order
   Theory : #TODO1 integrals + ODE solves
   Inference : #TODO2 sweeps + MCMC
   Perturbations : #TODO3 CMB + P(k)
