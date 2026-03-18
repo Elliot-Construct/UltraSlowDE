@@ -66,7 +66,7 @@ so “peaks/valleys” operationalize into evolving averaged curvature \(\langle
 ```
 ```mermaid
 process
-  title Task Step
+  title Task timeline
   Theory : #TODO1 integrals + ODE solves
   Inference : #TODO2 sweeps + MCMC
   Perturbations : #TODO3 CMB + P(k)
