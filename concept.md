@@ -63,30 +63,9 @@ For irrotational dust on a domain \(\mathcal D\) with \(a_\mathcal D\propto V_\m
 \]
 so “peaks/valleys” operationalize into evolving averaged curvature \(\langle\mathcal R\rangle_\mathcal D\) and kinematical backreaction \(\mathcal Q_\mathcal D\), with acceleration possible when \(\mathcal Q_\mathcal D>4\pi G\langle\rho\rangle_\mathcal D\).
 
-## Validation and #TODO
-Observational stack to gatekeep viability: Pantheon+ SNe Ia (and its released likelihood assets), DESI Collaboration (BAO), eBOSS (BAO/RSD growth \(f\sigma_8\)), and Planck Collaboration (CMB).
-Suggested exploration ranges: \(w_0\in[-1.2,-0.8]\), \(A\in[0,0.2]\), \(\omega\in[0.1,5]\), \(\phi\in[0,2\pi]\); \(m/H_0\in[0.05,10]\), \(f/M_{\rm Pl}\in[0.5,10]\), plus \((\phi_i,\dot\phi_i)\) priors.
-
-### TODO
-- [ ] Perform analytic integral cross-checks (Model A) + coupled ODE solves (Model B).
-- [ ] Run parameter sweeps and MCMC against SN+BAO+CMB+RSD likelihoods.
-- [ ] Compute CMB and \(P(k)\) impacts (Boltzmann code; self-consistent perturbations).
-- [ ] Write Methods/Results/Figures/Discussion with robustness tests and a systematic “risk register.”
-
-Tables requested:
-- Parameter definitions + priors
-- Observables + datasets (including redshift coverage and covariance availability)
-
-Plots requested:
-- \(H(z)\) vs ΛCDM
-- \(\Delta_H(z)\)
-- \(\Delta_{D_L}(z)\)
-- \(q(z)\)
-- \((\phi,\dot\phi)\) phase space
-
 ```mermaid
-timeline
-  title Task timeline
+process
+  title Task Step
   Theory : #TODO1 integrals + ODE solves
   Inference : #TODO2 sweeps + MCMC
   Perturbations : #TODO3 CMB + P(k)
